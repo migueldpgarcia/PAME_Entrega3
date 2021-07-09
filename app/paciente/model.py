@@ -18,5 +18,5 @@ class Paciente (db.Model):
     medicos = db.relationship ('Medico', secondary=association_table, backref='paciente')
 
 
-#classe    
+
     
