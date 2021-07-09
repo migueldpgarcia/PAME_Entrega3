@@ -15,3 +15,5 @@ class Medico (db.Model):
     receitas = db.relationship ('Receita', backref = 'medico')
 
     pacientes = db.relationship ('Paciente', secondary=association_table, backref='medico')
+
+#classe    

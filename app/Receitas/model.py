@@ -7,4 +7,7 @@ class Receita (db.Model):
 
     medico_id = db.Column(db.Integer, db.ForeignKey('medico.id'))
     paciente_id = db.Column(db.Integer, db.ForeignKey('paciente.id'))
+
+
+#classe    
     
